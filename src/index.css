@@ -1,0 +1,18 @@
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --bg:#F4F1EA;
+  --text:#111111;
+  --green:#0F5C4C;
+  --green-light:#DDEBE4;
+  --bronze:#B68B5F;
+  --white:#FFFFFF;
+  --font-head:'Cormorant Garamond',serif;
+  --font-body:'Manrope',sans-serif;
+}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);overflow-x:hidden;}
+a{text-decoration:none;color:inherit;}
+ul{list-style:none;}
+img{max-width:100%;display:block;}
+button{cursor:pointer;border:none;outline:none;background:none;}
