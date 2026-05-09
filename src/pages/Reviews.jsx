@@ -21,7 +21,7 @@ export default function Reviews() {
         slides={pageBanners.reviews}
         title="Client Testimonials"
         subtitle="What People Say"
-        description="Read about the experiences of our clients and discover why we are the top choice for interior and wallpaper design."
+        description="Read about the experiences of our clients and discover why Designco India is the top choice for architecture and civil engineering in Siwan."
         pageName="Reviews"
       />
 
@@ -30,8 +30,8 @@ export default function Reviews() {
           <Reveal>
             <div className="rating-badge">
               <span className="stars">★★★★★</span>
-              <span className="score">5.0</span>
-              <span className="count">| 7 Google Reviews</span>
+              <span className="score">4.8</span>
+              <span className="count">| 24 Google Reviews</span>
             </div>
           </Reveal>
           <Reveal delay={0.1}><div className="section-tag">Testimonials</div></Reveal>
@@ -67,7 +67,7 @@ export default function Reviews() {
                   <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#eee', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>{test.name[0]}</div>
                   <div>
                     <div style={{ fontWeight: 'bold', fontSize: '0.9rem' }}>{test.name}</div>
-                    <div style={{ fontSize: '0.8rem', color: '#888' }}>1 week ago</div>
+                    <div style={{ fontSize: '0.8rem', color: '#888' }}>Recently</div>
                   </div>
                 </div>
                 <div style={{ color: '#f5c842', marginBottom: '0.5rem', letterSpacing: '2px' }}>★★★★★</div>

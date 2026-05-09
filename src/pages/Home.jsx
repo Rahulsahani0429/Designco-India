@@ -25,23 +25,22 @@ export default function Home() {
         <div className="hero-content-wrapper">
           <motion.div className="hero-content" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}>
             <div className="hero-badge">
-              <span className="star">★</span> 5.0 Rating &nbsp;|&nbsp; 7+ Reviews
+              <span className="star">★</span> 4.8 Rating &nbsp;|&nbsp; 24 Verified Reviews
             </div>
-            <h1 className="hero-title">Transform Your Space With <span className="text-highlight">Premium</span> Interior <span className="text-highlight">Designs</span></h1>
-            <p className="hero-sub">SIWAN INTERIOR provides premium wallpaper installation, decorative wall designs, PVC wall panels, elegant ceiling concepts, and luxury interior finishing services for homes, offices, and commercial spaces in Siwan.</p>
+            <h1 className="hero-title">Trusted <span className="text-highlight">Civil Engineers</span> & <span className="text-highlight">Architects</span> in Siwan</h1>
+            <p className="hero-sub">Designco India delivers premium architectural design, civil engineering, and modern interior solutions for residential and commercial projects with world-class quality in Siwan, Bihar.</p>
           </motion.div>
           <motion.div className="hero-bottom-content" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}>
             <div className="hero-trust-line">
-              <span>✔ Modern Wallpaper Designs</span>
-              <span>✔ Premium Interior Solutions</span>
-              <span>✔ Elegant Wall Decoration</span>
-              <span>✔ Professional Finishing</span>
-              <span>✔ Trusted Interior Store In Siwan</span>
+              <span>✔ Architectural Design</span>
+              <span>✔ Civil Engineering</span>
+              <span>✔ Building Planning</span>
+              <span>✔ Professional Construction</span>
+              <span>✔ Trusted Experts In Siwan</span>
             </div>
             <div className="hero-btns">
-              <a href="tel:08437467458" className="btn-primary">Call Now</a>
+              <a href="tel:09546734413" className="btn-primary">Call Now</a>
               <Link to="/contact" className="btn-outline">Get Free Consultation</Link>
-              <Link to="/contact" className="btn-outline">Visit Store</Link>
             </div>
           </motion.div>
         </div>
@@ -68,15 +67,15 @@ export default function Home() {
           <div>
             <Reveal><div className="section-tag">About Us</div></Reveal>
             <Reveal delay={0.1}>
-              <h2 className="section-title">Elegant <span className="text-highlight-gradient">Interior & Wallpaper</span> Experiences in Siwan, Bihar</h2>
+              <h2 className="section-title">Designco India: <span className="text-highlight-gradient">Civil Engineering & Architecture</span> in Siwan, Bihar</h2>
             </Reveal>
             <Reveal delay={0.2}>
-              <p className="about-body">SIWAN INTERIOR is a trusted interior and wallpaper design business in Siwan, Bihar, offering premium interior solutions for homes, offices, showrooms, and commercial spaces. We specialize in modern wallpaper installation, decorative wall concepts, elegant ceiling designs, and high-quality finishing work.</p>
-              <p className="about-body" style={{ marginTop: '1rem' }}>Our goal is to transform ordinary spaces into stylish modern interiors using premium materials, creative design concepts, and professional craftsmanship.</p>
+              <p className="about-body">Designco India is a trusted civil engineering and architectural design firm in Siwan, Bihar, offering premium solutions for residential, commercial, and industrial projects. We specialize in modern architectural design, structural engineering, building planning, and professional construction consultancy.</p>
+              <p className="about-body" style={{ marginTop: '1rem' }}>Our mission is to build high-quality, modern, and safe structures using advanced engineering principles and innovative design concepts.</p>
             </Reveal>
             <Reveal delay={0.3}>
               <div className="about-stats">
-                {[['5.0★', 'Google Rating'], ['7+', 'Positive Reviews'], ['Premium', 'Quality Materials'], ['Trusted', 'Interior Store']].map(([num, label]) => (
+                {[['4.8★', 'Google Rating'], ['24+', 'Google Reviews'], ['Premium', 'Engineering'], ['Trusted', 'Expert Firm']].map(([num, label]) => (
                   <div key={label} className="stat-card">
                     <div className="stat-num">{num}</div>
                     <div className="stat-label">{label}</div>
@@ -170,22 +169,22 @@ export default function Home() {
             <div className="cta-left">
               <div>
                 <div className="cta-brand-label">
-                  <div className="cta-brand-icon">SI</div>
+                  <div className="cta-brand-icon">DI</div>
                   <div className="cta-brand-text">
-                    <span>SIWAN INTERIOR</span>
-                    <span>Premium Interior & Wallpaper Solutions</span>
+                    <span>DESIGNCO INDIA</span>
+                    <span>Civil · Architecture · Interior</span>
                   </div>
                 </div>
                 <h2 className="cta-heading">
-                  Ready to Design Your<br />
+                  Ready to Build Your<br />
                   <span className="text-highlight-gradient">Dream Space?</span>
                 </h2>
                 <div className="cta-divider" />
-                <p className="cta-para">Connect with SIWAN INTERIOR for premium wallpaper installation, decorative wall designs, PVC panel work, ceiling concepts, and elegant finishing services in Siwan, Bihar.</p>
+                <p className="cta-para">Connect with Designco India for professional architectural design, civil engineering, and modern construction consultancy in Siwan, Bihar. Let&apos;s build something extraordinary together.</p>
               </div>
               <div className="cta-btns">
                 <Link to="/contact" className="btn-emerald">📅 Book Consultation</Link>
-                <a href="tel:08437467458" className="btn-glass">📞 Call 084374 67458</a>
+                <a href="tel:09546734413" className="btn-glass">📞 Call 095467 34413</a>
               </div>
             </div>
             <div className="cta-right">

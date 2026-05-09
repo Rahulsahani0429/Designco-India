@@ -14,11 +14,11 @@ export default function Contact() {
   };
 
   const infoItems = [
-    { icon: '📞', label: 'Phone', val: '084374 67458' },
-    { icon: '📍', label: 'Location', val: 'Basantpur Rd, Opposite Nursary, Siwan, Bihar 841226' },
-    { icon: '🕘', label: 'Opening Hours', val: '9:00 AM - 7:00 PM' },
-    { icon: '⭐', label: 'Rating', val: '5.0 ★ | 7 Google Reviews' },
-    { icon: '🚚', label: 'Delivery', val: 'Offers same-day delivery' },
+    { icon: '📞', label: 'Phone', val: '095467 34413' },
+    { icon: '📍', label: 'Location', val: 'Behind Richa Gas Agency, Ram Rajya More, Siwan 841226' },
+    { icon: '🕘', label: 'Opening Hours', val: '9:00 AM - 9:00 PM' },
+    { icon: '⭐', label: 'Rating', val: '4.8 ★ | 24 Google Reviews' },
+    { icon: '🏛️', label: 'Service', val: 'Architecture & Civil Engineering' },
   ];
 
   return (
@@ -27,7 +27,7 @@ export default function Contact() {
         slides={pageBanners.contact}
         title="Get In Touch"
         subtitle="Contact Us"
-        description="We would love to hear from you. Let's discuss your next dream project."
+        description="We would love to hear from you. Let's discuss your next premium project."
         pageName="Contact"
       />
 
@@ -43,9 +43,9 @@ export default function Contact() {
               <div className="cl-bolt bl" />
               <div className="cl-bolt br" />
               <div className="cl-logo">
-                <div className="cl-logo-icon">SI</div>
-                <div className="cl-logo-name">SIWAN<br />INTERIOR</div>
-                <div className="cl-logo-sub">Interior · Wallpaper · PVC Panels</div>
+                <div className="cl-logo-icon">DI</div>
+                <div className="cl-logo-name">DESIGNCO<br />INDIA</div>
+                <div className="cl-logo-sub">Civil · Architecture · Interior</div>
               </div>
               {infoItems.map(item => (
                 <div key={item.label} className="cl-item">
@@ -60,7 +60,7 @@ export default function Contact() {
 
             {/* CENTER OFFICE IMAGE */}
             <div className="contact-center">
-              <img src="/office-center.png" alt="SIWAN INTERIOR Office" className="contact-center-img" />
+              <img src="/about.png" alt="Designco India Office" className="contact-center-img" />
               <div className="contact-center-overlay" />
             </div>
 
@@ -89,12 +89,12 @@ export default function Contact() {
                   <label>Project Type</label>
                   <select required value={form.type} onChange={e => setForm({ ...form, type: e.target.value })}>
                     <option value="">Select Project Type</option>
-                    <option>Wallpaper Installation</option>
-                    <option>PVC Wall Panels</option>
-                    <option>Home Interior</option>
-                    <option>Office Interior</option>
-                    <option>Decorative Solutions</option>
-                    <option>Ceiling Design</option>
+                    <option>Architectural Design</option>
+                    <option>Civil Engineering</option>
+                    <option>Building Planning</option>
+                    <option>Structural Design</option>
+                    <option>Home Design</option>
+                    <option>Commercial Design</option>
                   </select>
                 </div>
                 <div className="form-group">
@@ -112,7 +112,7 @@ export default function Contact() {
                     <span>Siwan, Bihar</span>
                   </div>
                 </div>
-                <div className="map-card-label">📍 Basantpur Rd, Siwan, Bihar – 841226</div>
+                <div className="map-card-label">📍 Ram Rajya More, Siwan, Bihar – 841226</div>
               </div>
             </div>
           </div>

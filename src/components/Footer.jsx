@@ -7,8 +7,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-brand">
-          <div className="logo">SIWAN INTERIOR</div>
-          <p>Premium interior design, wallpaper installation, decorative wall designs, PVC panel work, ceiling concepts, and elegant finishing services in Siwan, Bihar.</p>
+          <div className="logo">Designco India</div>
+          <p>The leading civil engineering and architectural firm in Siwan, Bihar. Dedicated to building smart, modern, and high-quality spaces.</p>
           <div className="footer-social">
             {['f', 'in', 'ig', 'yt'].map(s => <a key={s} href="#" className="social-icon">{s}</a>)}
           </div>
@@ -19,22 +19,21 @@ export default function Footer() {
         </div>
         <div className="footer-col">
           <h4>Services</h4>
-          <ul>{['Wallpaper Installation', 'PVC Wall Panels', 'Decorative Walls', 'Ceiling Design', 'Home Interiors', 'Office Interiors'].map(s => <li key={s}><Link to="/services">{s}</Link></li>)}</ul>
+          <ul>{['Architectural Design', 'Civil Engineering', 'Interior Design', 'Building Planning', 'Commercial Design', 'Home Planning'].map(s => <li key={s}><Link to="/services">{s}</Link></li>)}</ul>
         </div>
         <div className="footer-col">
-          <h4>Contact</h4>
+          <h4>Business Info</h4>
           <ul>
-            <li><a href="tel:08437467458">📞 084374 67458</a></li>
-            <li><Link to="/contact">📍 Basantpur Rd, Siwan 841226</Link></li>
-            <li><Link to="/reviews">⭐ 5.0 ★ | Trusted Interior Store</Link></li>
-            <li><Link to="/contact">🕘 Open 9 AM – 7 PM</Link></li>
-            <li><Link to="/contact">🚚 Offers same-day delivery</Link></li>
+            <li><a href="tel:09546734413">📞 095467 34413</a></li>
+            <li><Link to="/contact">📍 Behind Richa Gas Agency, Ram Rajya More, Siwan 841226</Link></li>
+            <li><Link to="/reviews">⭐ 4.8 ★ | 24 Google Reviews</Link></li>
+            <li><Link to="/contact">🕘 Open Daily: 9 AM - 9 PM</Link></li>
           </ul>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2025 SIWAN INTERIOR. All rights reserved.</p>
-        <p>Premium Interior & Wallpaper Solutions In Siwan</p>
+        <p>© 2026 Designco India. All rights reserved.</p>
+        <p>Siwan, Bihar · Trusted Civil Engineers · Modern Architecture</p>
       </div>
     </footer>
   );
