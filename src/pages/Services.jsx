@@ -11,7 +11,7 @@ export default function Services() {
         slides={pageBanners.services}
         title="Our Premium Services"
         subtitle="What We Offer"
-        description="Comprehensive architecture and interior design solutions tailored to your unique lifestyle and business requirements."
+        description="Comprehensive interior and wallpaper design solutions tailored to your unique lifestyle and business requirements."
         pageName="Services"
       />
 
@@ -59,7 +59,7 @@ export default function Services() {
             <Reveal delay={0.3}>
               <div style={{ background: 'white', padding: '2rem', borderRadius: '16px', marginBottom: '1rem', boxShadow: '0 4px 16px rgba(0,0,0,0.04)' }}>
                 <h4 style={{ fontFamily: 'var(--font-head)', fontSize: '1.2rem', marginBottom: '0.5rem', color: 'var(--text)' }}>Do you handle both design and execution?</h4>
-                <p style={{ color: '#666', fontSize: '0.95rem', lineHeight: '1.6' }}>Yes, we offer complete turnkey solutions. From architectural drawings and interior design to civil engineering and final execution, we handle everything.</p>
+                <p style={{ color: '#666', fontSize: '0.95rem', lineHeight: '1.6' }}>Yes, we offer complete turnkey solutions. From 3D visualization and interior design to decorative paneling and final finishing, we handle everything.</p>
               </div>
             </Reveal>
             <Reveal delay={0.4}>

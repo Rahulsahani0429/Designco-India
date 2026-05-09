@@ -25,20 +25,23 @@ export default function Home() {
         <div className="hero-content-wrapper">
           <motion.div className="hero-content" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}>
             <div className="hero-badge">
-              <span className="star">★</span> 4.9 Rating &nbsp;|&nbsp; 24k + Reviews
+              <span className="star">★</span> 5.0 Rating &nbsp;|&nbsp; 7+ Reviews
             </div>
-            <h1 className="hero-title">Design Beautiful Spaces That Feel <span className="text-highlight">Premium</span>, Functional & <span className="text-highlight">Timeless</span></h1>
-            <p className="hero-sub">Designco India delivers premium interior design, architecture planning, civil engineering, and modern residential/commercial solutions in Siwan, Bihar.</p>
+            <h1 className="hero-title">Transform Your Space With <span className="text-highlight">Premium</span> Interior <span className="text-highlight">Designs</span></h1>
+            <p className="hero-sub">SIWAN INTERIOR provides premium wallpaper installation, decorative wall designs, PVC wall panels, elegant ceiling concepts, and luxury interior finishing services for homes, offices, and commercial spaces in Siwan.</p>
           </motion.div>
           <motion.div className="hero-bottom-content" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}>
             <div className="hero-trust-line">
-              <span>✔ Trusted Local Design Experts</span>
-              <span>✔ 4.8★ Rated Business</span>
-              <span>✔ Residential & Commercial Projects</span>
+              <span>✔ Modern Wallpaper Designs</span>
+              <span>✔ Premium Interior Solutions</span>
+              <span>✔ Elegant Wall Decoration</span>
+              <span>✔ Professional Finishing</span>
+              <span>✔ Trusted Interior Store In Siwan</span>
             </div>
             <div className="hero-btns">
-              <Link to="/projects" className="btn-primary">View Projects</Link>
-              <Link to="/contact" className="btn-outline">Contact Us</Link>
+              <a href="tel:08437467458" className="btn-primary">Call Now</a>
+              <Link to="/contact" className="btn-outline">Get Free Consultation</Link>
+              <Link to="/contact" className="btn-outline">Visit Store</Link>
             </div>
           </motion.div>
         </div>
@@ -65,14 +68,15 @@ export default function Home() {
           <div>
             <Reveal><div className="section-tag">About Us</div></Reveal>
             <Reveal delay={0.1}>
-              <h2 className="section-title">Elegant <span className="text-highlight-gradient">Architecture & Interior</span> Experiences in Siwan, Bihar</h2>
+              <h2 className="section-title">Elegant <span className="text-highlight-gradient">Interior & Wallpaper</span> Experiences in Siwan, Bihar</h2>
             </Reveal>
             <Reveal delay={0.2}>
-              <p className="about-body">Designco India is a trusted interior design and civil engineering company based in Siwan, Bihar. We specialize in modern interior solutions, architectural planning, elevation design, commercial spaces, and premium residential projects. Our focus is to create visually elegant, functional, and modern spaces with attention to detail, smart planning, and customer satisfaction.</p>
+              <p className="about-body">SIWAN INTERIOR is a trusted interior and wallpaper design business in Siwan, Bihar, offering premium interior solutions for homes, offices, showrooms, and commercial spaces. We specialize in modern wallpaper installation, decorative wall concepts, elegant ceiling designs, and high-quality finishing work.</p>
+              <p className="about-body" style={{ marginTop: '1rem' }}>Our goal is to transform ordinary spaces into stylish modern interiors using premium materials, creative design concepts, and professional craftsmanship.</p>
             </Reveal>
             <Reveal delay={0.3}>
               <div className="about-stats">
-                {[['4.8★', 'Google Rating'], ['24+', 'Customer Reviews'], ['100+', 'Design Concepts'], ['Res & Com', 'Project Types']].map(([num, label]) => (
+                {[['5.0★', 'Google Rating'], ['7+', 'Positive Reviews'], ['Premium', 'Quality Materials'], ['Trusted', 'Interior Store']].map(([num, label]) => (
                   <div key={label} className="stat-card">
                     <div className="stat-num">{num}</div>
                     <div className="stat-label">{label}</div>
@@ -83,7 +87,7 @@ export default function Home() {
           </div>
           <Reveal delay={0.2}>
             <div className="about-images">
-              <div className="about-img"><img src="/about.png" alt="Architect at work" /></div>
+              <div className="about-img"><img src="/about.png" alt="Interior Designer at work" /></div>
               <div className="about-img"><img src="/proj-residential.png" alt="Residential design" /></div>
               <div className="about-img"><img src="/hero1.png" alt="Interior design" /></div>
             </div>
@@ -95,7 +99,7 @@ export default function Home() {
       <section className="section services">
         <div style={{ textAlign: 'center' }}>
           <Reveal><div className="section-tag">What We Offer</div></Reveal>
-          <Reveal delay={0.1}><h2 className="section-title">Our <span className="text-highlight-underline">Interior & Civil Engineering</span> Services</h2></Reveal>
+          <Reveal delay={0.1}><h2 className="section-title">Our <span className="text-highlight-underline">Premium Interior</span> Services</h2></Reveal>
         </div>
         <div className="services-grid">
           {services.slice(0, 4).map((s, i) => (
@@ -166,10 +170,10 @@ export default function Home() {
             <div className="cta-left">
               <div>
                 <div className="cta-brand-label">
-                  <div className="cta-brand-icon">DI</div>
+                  <div className="cta-brand-icon">SI</div>
                   <div className="cta-brand-text">
-                    <span>DESIGNCO INDIA</span>
-                    <span>Interior · Architecture · Civil Engineering</span>
+                    <span>SIWAN INTERIOR</span>
+                    <span>Premium Interior & Wallpaper Solutions</span>
                   </div>
                 </div>
                 <h2 className="cta-heading">
@@ -177,11 +181,11 @@ export default function Home() {
                   <span className="text-highlight-gradient">Dream Space?</span>
                 </h2>
                 <div className="cta-divider" />
-                <p className="cta-para">Connect with Designco India for premium interior design, architecture planning, civil engineering, and modern residential/commercial solutions in Siwan, Bihar.</p>
+                <p className="cta-para">Connect with SIWAN INTERIOR for premium wallpaper installation, decorative wall designs, PVC panel work, ceiling concepts, and elegant finishing services in Siwan, Bihar.</p>
               </div>
               <div className="cta-btns">
                 <Link to="/contact" className="btn-emerald">📅 Book Consultation</Link>
-                <a href="tel:09546734413" className="btn-glass">📞 Call 095467 34413</a>
+                <a href="tel:08437467458" className="btn-glass">📞 Call 084374 67458</a>
               </div>
             </div>
             <div className="cta-right">

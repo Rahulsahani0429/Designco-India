@@ -9,9 +9,9 @@ export default function About() {
     <div className="page-wrapper">
       <PageBanner 
         slides={pageBanners.about}
-        title="About Designco India"
+        title="About SIWAN INTERIOR"
         subtitle="Our Story"
-        description="We are a premium architecture and interior design firm dedicated to creating timeless spaces in Siwan, Bihar."
+        description="We are a premium interior design and wallpaper store dedicated to creating timeless spaces in Siwan, Bihar."
         pageName="About Us"
       />
 
@@ -23,10 +23,10 @@ export default function About() {
               <h2 className="section-title">Crafting <span className="text-highlight-underline">Timeless Spaces</span> with Precision</h2>
             </Reveal>
             <Reveal delay={0.2}>
-              <p className="about-body">Designco India started with a simple vision: to bring world-class architecture and interior design to Siwan, Bihar. Over the years, we have grown into a trusted name for residential and commercial projects. Our philosophy blends aesthetics with functionality, ensuring every space we design is both beautiful and practical.</p>
+              <p className="about-body">SIWAN INTERIOR is a trusted interior and wallpaper design business in Siwan, Bihar, offering premium interior solutions for homes, offices, showrooms, and commercial spaces. We specialize in modern wallpaper installation, decorative wall concepts, elegant ceiling designs, and high-quality finishing work.</p>
             </Reveal>
             <Reveal delay={0.3}>
-              <p className="about-body" style={{ marginTop: '1rem' }}>We believe in a client-first approach, taking the time to understand your unique lifestyle and business needs. From initial concept to final execution, our team of expert architects, designers, and engineers work tirelessly to deliver excellence.</p>
+              <p className="about-body" style={{ marginTop: '1rem' }}>Our goal is to transform ordinary spaces into stylish modern interiors using premium materials, creative design concepts, and professional craftsmanship.</p>
             </Reveal>
             <Reveal delay={0.4}>
               <div style={{ marginTop: '2rem' }}>
@@ -36,7 +36,7 @@ export default function About() {
           </div>
           <Reveal delay={0.2}>
             <div className="about-images">
-              <div className="about-img"><img src="/about.png" alt="Architect at work" /></div>
+              <div className="about-img"><img src="/about.png" alt="Interior Designer at work" /></div>
               <div className="about-img"><img src="/hero2.png" alt="Residential design" /></div>
               <div className="about-img"><img src="/hero1.png" alt="Interior design" /></div>
             </div>
@@ -51,7 +51,7 @@ export default function About() {
             <div className="service-card" style={{ padding: '3rem', cursor: 'default' }}>
               <div className="section-tag">Our Mission</div>
               <h3 style={{ fontFamily: 'var(--font-head)', fontSize: '1.8rem', marginBottom: '1rem', color: 'var(--text)' }}>Elevating <span className="text-highlight">Lifestyles</span></h3>
-              <p style={{ color: '#555', lineHeight: '1.7' }}>To provide innovative, high-quality, and sustainable design solutions that enhance the way people live and work, setting new standards in the architecture and interior design industry.</p>
+              <p style={{ color: '#555', lineHeight: '1.7' }}>To provide innovative, high-quality, and modern interior design solutions that enhance the way people live and work, setting new standards in the interior and wallpaper industry.</p>
             </div>
           </Reveal>
           <Reveal delay={0.2}>

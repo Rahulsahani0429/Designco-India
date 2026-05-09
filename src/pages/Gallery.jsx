@@ -11,7 +11,7 @@ export default function Gallery() {
         slides={pageBanners.gallery}
         title="Design Inspiration"
         subtitle="Gallery"
-        description="Browse through our expansive gallery of luxury interiors, modern architecture, and aesthetic decor ideas."
+        description="Browse through our expansive gallery of luxury interiors, modern wallpapers, and aesthetic decor ideas."
         pageName="Gallery"
       />
 
@@ -33,8 +33,8 @@ export default function Gallery() {
             </Reveal>
           ))}
           {/* Add a few more items for a bigger gallery */}
-          <Reveal delay={0.2}><div className="gallery-item"><img src="/proj-commercial.png" alt="Commercial" className="gallery-img" /><div className="gallery-overlay"><span className="gallery-label">Retail Space</span></div></div></Reveal>
-          <Reveal delay={0.3}><div className="gallery-item" style={{ gridColumn: 'span 2' }}><img src="/hero2.png" alt="Architecture" className="gallery-img" /><div className="gallery-overlay"><span className="gallery-label">Modern Elevation</span></div></div></Reveal>
+          <Reveal delay={0.2}><div className="gallery-item"><img src="/proj-commercial.png" alt="Commercial" className="gallery-img" /><div className="gallery-overlay"><span className="gallery-label">Premium Paneling</span></div></div></Reveal>
+          <Reveal delay={0.3}><div className="gallery-item" style={{ gridColumn: 'span 2' }}><img src="/hero2.png" alt="Interior Details" className="gallery-img" /><div className="gallery-overlay"><span className="gallery-label">Luxury Wall Textures</span></div></div></Reveal>
         </div>
 
         <Reveal delay={0.4}>

@@ -1,63 +1,61 @@
 export const heroSlides = [
   { url: '/hero1.png', label: 'Premium Interiors' },
-  { url: '/hero2.png', label: 'Villa Architecture' },
-  { url: '/hero3.png', label: 'Modular Kitchens' },
+  { url: '/hero2.png', label: 'Modern Wallpapers' },
+  { url: '/hero3.png', label: 'PVC Wall Panels' },
 ];
 
-export const trustItems = ['Interior Design', 'Architecture Planning', 'Civil Engineering', 'Home Renovation', 'Commercial Spaces', '3D Visualization', 'Elevation Design', 'Space Planning', 'Modern Homes', 'Luxury Interiors'];
+export const trustItems = ['5.0 Google Rating', '7+ Positive Reviews', 'Premium Quality Materials', 'Professional Interior Finishing', 'Trusted Interior Store', 'Modern Design Expertise', 'Wallpaper Installation', 'PVC Wall Panels', 'Ceiling Concepts', 'Luxury Interiors'];
 
 export const services = [
-  { num: '01', name: 'Interior Design', icon: '🪑', img: '/proj-residential.png', desc: 'Modern and functional interior solutions for homes and commercial spaces.' },
-  { num: '02', name: 'Architecture Planning', icon: '🏛️', img: '/hero1.png', desc: 'Comprehensive architectural planning from concept to detailed drawings.' },
-  { num: '03', name: 'Civil Engineering', icon: '⚙️', img: '/proj-commercial.png', desc: 'Structural and civil engineering services for lasting, safe constructions.' },
-  { num: '04', name: 'Home Renovation', icon: '🏠', img: '/proj-residential.png', desc: 'Transform your existing space with premium renovation and upgrade solutions.' },
-  { num: '05', name: 'Commercial Space Design', icon: '🏢', img: '/proj-commercial.png', desc: 'Elegant, brand-aligned commercial interiors for offices and retail spaces.' },
-  { num: '06', name: '3D Visualization', icon: '🎨', img: '/hero2.png', desc: 'Realistic 3D walkthroughs to visualize your space before construction begins.' },
-  { num: '07', name: 'Elevation Design', icon: '🏗️', img: '/hero3.png', desc: "Striking exterior elevations that define your building's identity and style." },
-  { num: '08', name: 'Space Planning', icon: '📐', img: '/hero1.png', desc: 'Smart space planning for optimal use, flow, and comfort in every room.' },
-  { num: '09', name: 'Modern Home Concepts', icon: '✏️', img: '/proj-villa.png', desc: 'Contemporary home design concepts inspired by global design trends.' },
-  { num: '10', name: 'Luxury Interior Solutions', icon: '💎', img: '/proj-kitchen.png', desc: 'High-end luxury interiors with premium materials and bespoke detailing.' },
+  { num: '01', name: 'Wallpaper Installation', icon: '🎨', img: '/proj-residential.png', desc: 'Premium quality wallpaper designs and flawless installation for elegant interiors.' },
+  { num: '02', name: 'PVC Wall Panel Design', icon: '🧱', img: '/hero1.png', desc: 'Modern aesthetics with durable and stylish PVC paneling for walls and ceilings.' },
+  { num: '03', name: 'Decorative Wall Designs', icon: '✨', img: '/proj-commercial.png', desc: 'Creative and elegant decorative wall interiors that enhance your living space.' },
+  { num: '04', name: 'Modern Ceiling Design', icon: '🔝', img: '/proj-residential.png', desc: 'Stylish false ceiling concepts with professional finishing for a premium look.' },
+  { num: '05', name: 'Wooden Interior Work', icon: '🪵', img: '/proj-commercial.png', desc: 'Luxury wooden interior work focusing on long-lasting quality and modern design.' },
+  { num: '06', name: 'Home Interior Solutions', icon: '🏠', img: '/hero2.png', desc: 'Customized home interior design that seamlessly blends beauty and functionality.' },
+  { num: '07', name: 'Office Interior Design', icon: '🏢', img: '/hero3.png', desc: 'Professional and stylish office interiors designed for productivity and brand appeal.' },
+  { num: '08', name: 'Decorative Frames', icon: '🖼️', img: '/hero1.png', desc: 'Best quality frames and elegant decorative panels for sophisticated wall spaces.' },
+  { num: '09', name: 'Luxury Interior Finishing', icon: '💎', img: '/proj-villa.png', desc: 'High-end luxury interior finishing ensuring premium quality and superb details.' }
 ];
 
 export const allServicesList = [
-  'Residential interior design', 'Commercial interior design', 'Office space design', 'False ceiling design', 'Modular kitchen design', 'Bedroom interior design', 'Living room design', 'Bathroom & washroom design', 'Architectural drawings', 'Building layout planning', 'Structural analysis', 'Foundation design', 'Retaining wall design', 'Drainage & plumbing planning', 'Elevation & facade design', 'Building permit assistance', 'Construction supervision', 'Site inspection', 'Budget estimation', 'Project management', 'Turnkey execution', 'Furniture & fixture sourcing', 'Lighting design', 'Landscape planning',
+  'Wallpaper installation', 'PVC wall panel design', 'Decorative wall solutions', 'Modern ceiling design', 'Wooden interior work', 'Office interior design', 'Home interior design', 'Decorative frames & panels', 'Luxury interior finishing', '3D wallpaper design', 'Wall texturing', 'Custom furniture design'
 ];
 
 export const projects = [
-  { title: 'Luxury Residential Interior', cat: 'Residential', img: '/proj-residential.png' },
-  { title: 'Modern Villa Architecture', cat: 'Architecture', img: '/proj-villa.png' },
-  { title: 'Modular Kitchen Design', cat: 'Interior', img: '/proj-kitchen.png' },
-  { title: 'Commercial Office Design', cat: 'Commercial', img: '/proj-commercial.png' },
-  { title: 'Structural Planning', cat: 'Engineering', img: '/about.png' },
-  { title: 'Sustainable Home Design', cat: 'Sustainable', img: '/hero1.png' },
+  { title: 'Modern Wallpapers', cat: 'Wallpaper', img: '/proj-residential.png' },
+  { title: 'PVC Wall Panels', cat: 'Interior', img: '/proj-villa.png' },
+  { title: 'Luxury Wall Textures', cat: 'Decorative', img: '/proj-kitchen.png' },
+  { title: 'Decorative Interiors', cat: 'Interior', img: '/proj-commercial.png' },
+  { title: 'Ceiling Concepts', cat: 'Ceiling', img: '/about.png' },
+  { title: 'Elegant Office Interiors', cat: 'Commercial', img: '/hero1.png' },
 ];
 
 export const steps = [
   { num: '01', title: 'Consultation', desc: 'Understand your requirements, site condition and budget.' },
-  { num: '02', title: 'Concept Planning', desc: 'Create layout, moodboard and architectural direction.' },
-  { num: '03', title: '3D Visualization', desc: 'Show realistic interior and exterior design previews.' },
-  { num: '04', title: 'Technical Drawings', desc: 'Prepare structural, architectural and engineering drawings.' },
-  { num: '05', title: 'Execution Supervision', desc: 'Guide construction and design execution with quality control.' },
+  { num: '02', title: 'Concept Planning', desc: 'Create layout, moodboard and interior direction.' },
+  { num: '03', title: '3D Visualization', desc: 'Show realistic interior and room design previews.' },
+  { num: '04', title: 'Material Selection', desc: 'Select premium wallpapers, panels, and finishing materials.' },
+  { num: '05', title: 'Execution Supervision', desc: 'Guide design execution and installation with quality control.' },
   { num: '06', title: 'Final Handover', desc: 'Deliver a polished space ready for living or business.' },
 ];
 
 export const galleryItems = [
-  { img: '/proj-residential.png', label: 'Living Room' },
-  { img: '/hero1.png', label: 'Bedroom' },
-  { img: '/proj-kitchen.png', label: 'Kitchen' },
-  { img: '/proj-commercial.png', label: 'Office' },
-  { img: '/proj-villa.png', label: 'Villa Exterior' },
-  { img: '/about.png', label: 'Workspace' },
-  { img: '/hero3.png', label: 'Modular Kitchen' },
-  { img: '/hero2.png', label: 'Architecture' },
+  { img: '/proj-residential.png', label: 'Modern Wallpapers' },
+  { img: '/hero1.png', label: 'PVC Wall Panels' },
+  { img: '/proj-kitchen.png', label: 'Luxury Wall Textures' },
+  { img: '/proj-commercial.png', label: 'Decorative Interiors' },
+  { img: '/proj-villa.png', label: 'Ceiling Concepts' },
+  { img: '/about.png', label: 'Elegant Office Interiors' },
+  { img: '/hero3.png', label: 'Stylish Home Interiors' },
+  { img: '/hero2.png', label: 'Premium Finishing' },
 ];
 
 export const testimonials = [
-  { text: '"Mind blowing client satisfaction service. Designco India exceeded every expectation!"', name: 'Mantu Kumar Patel Official', role: 'Residential Client, Siwan ⭐⭐⭐⭐⭐' },
-  { text: '"Very nice….. Really impressed with the interior design quality and attention to detail."', name: 'Shubham Kumar Choudhary', role: 'Interior Design Client, Bihar ⭐⭐⭐⭐⭐' },
-  { text: '"Designco India transformed our home beautifully. The 3D visualization helped us see the design before work even started. Highly professional team!"', name: 'Rajiv Mishra', role: 'Home Renovation Client, Siwan ⭐⭐⭐⭐⭐' },
-  { text: '"Outstanding architecture planning and civil engineering support. Our commercial space looks stunning and was delivered on time. Best in Bihar!"', name: 'Pooja Agarwal', role: 'Commercial Client, Bihar ⭐⭐⭐⭐⭐' },
-  { text: '"The elevation design and interior work done by Designco India is world-class. Neighbours and guests are amazed. Truly premium service at a fair price."', name: 'Sanjay Tiwari', role: 'Luxury Interior Client, Siwan ⭐⭐⭐⭐⭐' },
+  { text: '“Excellent work and best quality frames 👍”', name: 'Happy Client', role: 'Siwan ⭐⭐⭐⭐⭐' },
+  { text: '“Good service, Superb finishing”', name: 'Local Customer', role: 'Siwan ⭐⭐⭐⭐⭐' },
+  { text: '“Professional interior work with premium finishing quality.”', name: 'Interior Client', role: 'Siwan ⭐⭐⭐⭐⭐' },
+  { text: '“Very modern wallpaper designs and excellent customer support.”', name: 'Home Owner', role: 'Bihar ⭐⭐⭐⭐⭐' },
 ];
 
 export const navLinks = [
@@ -74,22 +72,22 @@ export const pageBanners = {
   about: [
     { url: '/about.png', label: 'Our Workspace' },
     { url: '/hero1.png', label: 'Planning' },
-    { url: '/hero2.png', label: 'Architecture Team' }
+    { url: '/hero2.png', label: 'Interior Team' }
   ],
   services: [
-    { url: '/hero2.png', label: 'Interior Design' },
-    { url: '/proj-commercial.png', label: 'Commercial' },
-    { url: '/proj-kitchen.png', label: 'Modular Kitchen' }
+    { url: '/hero2.png', label: 'Wallpaper Design' },
+    { url: '/proj-commercial.png', label: 'Decorative Panels' },
+    { url: '/proj-kitchen.png', label: 'Ceiling Concepts' }
   ],
   projects: [
-    { url: '/proj-villa.png', label: 'Completed Villas' },
-    { url: '/proj-residential.png', label: 'Luxury Residences' },
-    { url: '/hero3.png', label: 'Commercial Projects' }
+    { url: '/proj-villa.png', label: 'Modern Homes' },
+    { url: '/proj-residential.png', label: 'Luxury Interiors' },
+    { url: '/hero3.png', label: 'Office Spaces' }
   ],
   gallery: [
     { url: '/hero1.png', label: 'Living Rooms' },
-    { url: '/proj-kitchen.png', label: 'Kitchens' },
-    { url: '/about.png', label: 'Exteriors' }
+    { url: '/proj-kitchen.png', label: 'Decorations' },
+    { url: '/about.png', label: 'Finishing' }
   ],
   reviews: [
     { url: '/proj-residential.png', label: 'Happy Clients' },
@@ -97,7 +95,7 @@ export const pageBanners = {
     { url: '/proj-villa.png', label: 'Success Stories' }
   ],
   contact: [
-    { url: '/office-center.png', label: 'Our Studio' },
+    { url: '/office-center.png', label: 'Our Store' },
     { url: '/about.png', label: 'Get In Touch' },
     { url: '/hero2.png', label: 'Visit Us' }
   ]

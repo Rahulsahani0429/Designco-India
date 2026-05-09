@@ -7,8 +7,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-brand">
-          <div className="logo">Designco India</div>
-          <p>Premium interior design, architecture planning, and civil engineering solutions for residential and commercial spaces in Siwan, Bihar.</p>
+          <div className="logo">SIWAN INTERIOR</div>
+          <p>Premium interior design, wallpaper installation, decorative wall designs, PVC panel work, ceiling concepts, and elegant finishing services in Siwan, Bihar.</p>
           <div className="footer-social">
             {['f', 'in', 'ig', 'yt'].map(s => <a key={s} href="#" className="social-icon">{s}</a>)}
           </div>
@@ -19,21 +19,22 @@ export default function Footer() {
         </div>
         <div className="footer-col">
           <h4>Services</h4>
-          <ul>{['Interior Design', 'Architecture Planning', 'Civil Engineering', 'Home Renovation', 'Commercial Space Design', '3D Visualization'].map(s => <li key={s}><Link to="/services">{s}</Link></li>)}</ul>
+          <ul>{['Wallpaper Installation', 'PVC Wall Panels', 'Decorative Walls', 'Ceiling Design', 'Home Interiors', 'Office Interiors'].map(s => <li key={s}><Link to="/services">{s}</Link></li>)}</ul>
         </div>
         <div className="footer-col">
           <h4>Contact</h4>
           <ul>
-            <li><a href="tel:09546734413">📞 095467 34413</a></li>
-            <li><Link to="/contact">📍 Kagzi Muhalla, Siwan 841226</Link></li>
-            <li><Link to="/reviews">⭐ 4.9 ★ | 24k + Happy Customers</Link></li>
-            <li><Link to="/contact">🕘 Open · 9 AM</Link></li>
+            <li><a href="tel:08437467458">📞 084374 67458</a></li>
+            <li><Link to="/contact">📍 Basantpur Rd, Siwan 841226</Link></li>
+            <li><Link to="/reviews">⭐ 5.0 ★ | Trusted Interior Store</Link></li>
+            <li><Link to="/contact">🕘 Open 9 AM – 7 PM</Link></li>
+            <li><Link to="/contact">🚚 Offers same-day delivery</Link></li>
           </ul>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2025 Designco India. All rights reserved.</p>
-        <p>Siwan, Bihar · Interior Design · Architecture · Civil Engineering</p>
+        <p>© 2025 SIWAN INTERIOR. All rights reserved.</p>
+        <p>Premium Interior & Wallpaper Solutions In Siwan</p>
       </div>
     </footer>
   );

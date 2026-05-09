@@ -21,7 +21,7 @@ export default function Reviews() {
         slides={pageBanners.reviews}
         title="Client Testimonials"
         subtitle="What People Say"
-        description="Read about the experiences of our clients and discover why we are the top choice for interior design and architecture."
+        description="Read about the experiences of our clients and discover why we are the top choice for interior and wallpaper design."
         pageName="Reviews"
       />
 
@@ -30,8 +30,8 @@ export default function Reviews() {
           <Reveal>
             <div className="rating-badge">
               <span className="stars">★★★★★</span>
-              <span className="score">4.8</span>
-              <span className="count">| 24 Google Reviews</span>
+              <span className="score">5.0</span>
+              <span className="count">| 7 Google Reviews</span>
             </div>
           </Reveal>
           <Reveal delay={0.1}><div className="section-tag">Testimonials</div></Reveal>

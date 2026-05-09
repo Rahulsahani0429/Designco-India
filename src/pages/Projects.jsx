@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Projects() {
   const [filter, setFilter] = useState('All');
-  const categories = ['All', 'Residential', 'Commercial', 'Architecture', 'Interior'];
+  const categories = ['All', 'Wallpaper', 'Interior', 'Decorative', 'Ceiling', 'Commercial'];
 
   const filteredProjects = filter === 'All' ? projects : projects.filter(p => p.cat === filter);
 
@@ -17,7 +17,7 @@ export default function Projects() {
         slides={pageBanners.projects}
         title="Our Portfolio"
         subtitle="Featured Works"
-        description="Explore our curated collection of luxury residential, commercial, and architectural projects."
+        description="Explore our curated collection of luxury interior, decorative, and wallpaper projects."
         pageName="Projects"
       />
 
@@ -79,8 +79,8 @@ export default function Projects() {
           <div style={{ marginTop: '6rem', background: 'var(--text)', borderRadius: '24px', overflow: 'hidden', display: 'flex', flexWrap: 'wrap' }}>
             <div style={{ flex: '1 1 400px', padding: '4rem', color: 'white' }}>
               <div className="section-tag" style={{ color: '#c8ddd9' }}>Featured Case Study</div>
-              <h3 style={{ fontFamily: 'var(--font-head)', fontSize: '2.5rem', marginBottom: '1.5rem', marginTop: '1rem' }}>The Grand Villa <span className="text-highlight">Renovation</span></h3>
-              <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: '1.8', marginBottom: '2rem' }}>A complete architectural and interior transformation of a 5,000 sq ft luxury villa in Siwan. Featuring premium materials, custom furniture, and modern elevation design.</p>
+              <h3 style={{ fontFamily: 'var(--font-head)', fontSize: '2.5rem', marginBottom: '1.5rem', marginTop: '1rem' }}>The Grand Interior <span className="text-highlight">Makeover</span></h3>
+              <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: '1.8', marginBottom: '2rem' }}>A complete interior and wallpaper transformation of a luxury space in Siwan. Featuring premium materials, decorative panels, and modern ceiling design.</p>
               <Link to="/contact" className="btn-primary">Start Your Project</Link>
             </div>
             <div style={{ flex: '1 1 400px' }}>

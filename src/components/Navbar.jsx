@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${scrolled || location.pathname !== '/' ? 'scrolled' : 'top'}`}>
-      <Link to="/" className="nav-logo" onClick={() => setMenuOpen(false)}>Designco India</Link>
+      <Link to="/" className="nav-logo" onClick={() => setMenuOpen(false)}>SIWAN INTERIOR</Link>
       <ul className="nav-links">
         {navLinks.map(link => (
           <li key={link.name}>
